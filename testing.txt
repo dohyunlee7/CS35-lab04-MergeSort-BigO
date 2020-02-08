@@ -1,0 +1,8 @@
+clang++ -g -std=c++11 -c -o mergeSort.o mergeSort.cpp
+clang++ -g -std=c++11 -o grading_tests grading_tests.o mergeSort.o -lUnitTest++
+Running grading tests...
+Beginning n(log n) performance test.  This should take less than a minute...
+n(log n) performance test complete.
+Success: 32 tests passed.
+Test time: 0.01 seconds.
+Finished.
